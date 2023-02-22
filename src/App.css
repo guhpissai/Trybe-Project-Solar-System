@@ -1,3 +1,68 @@
 .App {
   text-align: center;
 }
+
+body {
+  color: white;
+  background-image: url('./images/background.png');
+  font-family: 'Epilogue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 960px;
+  margin: 160px auto;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.solar-container h2 {
+  text-align: center;
+  margin-bottom: 80px;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.solar-system {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #7d7d7d;
+  position: absolute;
+  top: 640px;
+  z-index: 0;
+}
+
+.planet {
+  padding: 0 20px;
+}
+
+.planet h3 {
+  font-size: 1em;
+  font-weight: 300;
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
