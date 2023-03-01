@@ -107,17 +107,57 @@ header h1 {
   padding: 40px
 }
 
-.info-1 {
+.info-card {
   flex: 1;
   display: flex;
-  justify-content: space-between;
+}
+
+.info-card p {
+  margin: 0 10px;
 }
 
 .info-2 {
-  flex: 2;
+  display: flex;
+  align-items: center;
+  flex: 1;
   text-align: center;
 }
 
+.info-3 {
+  padding-right: 50px;
+}
+
+.info-1::before {
+  content: '';
+  background-image: url('./images/icons/data-icon.svg');
+  width: 18px;
+  height: 18px;
+  display: block;
+  margin-right: 10px;
+}
+
+.info-2::before {
+  content: '';
+  background-image: url('./images/icons/local.svg');
+  width: 15px;
+  height: 20px;
+  display: block;
+  margin-right: 10px;
+}
+
+.info-3::before {
+  content: '';
+  background-image: url('./images/icons/bandeira-icon.svg');
+  width: 15px;
+  height: 18px;
+  display: block;
+  margin-right: 10px;
+}
+
+.info-1, .info-2, .info-3 {
+  display: flex;
+  align-items: center;
+}
 
 
 
